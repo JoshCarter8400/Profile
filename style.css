@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.outline {
+    border: 2px solid red;
+}
+
+.two {
+    display: flex;
+}
+
+.about {
+    width: 200px;
+}
+
+.three {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.four {
+    display: flex;
+}
