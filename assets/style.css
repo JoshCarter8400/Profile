@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 66, 87);
+    background-color: rgb(248, 245, 245);
+}
+
+:root {
+    --primary-color: rgb(48, 155, 194);
+}
+
+
+/* Apply styles to the header */
+
+header {
+    padding: 20px 35px;
+    background-color: rgb(69, 5, 97);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+    background-position: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 10px 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* Header styles End*/
+
+
+/* Jumbo Style begin */
+
+.jumbo {
+    padding: 20px 35px;
+    top: 0;
+    height: 500px;
+    background-image: url(/images/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    width: 100%;
+}
+
+
+/*Jumbo styles end */
+
+
+/*Bio Section Syles Begin*/
+
+.about-me {
+    height: 30%;
+    display: flex;
+    padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about {
+    display: flex;
+}
+
+.work {
+    height: 40%;
+    display: flex;
+    padding: 20px 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-me {
+    height: 30%;
+}
+
+.contact-me {
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-me h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--primary-color);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.contact-me nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me nav ul a {
+    padding: 10px 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/*Contact Me styles end*/
