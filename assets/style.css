@@ -79,11 +79,24 @@ header nav ul a {
     width: 100%;
 }
 
+.jumbo h4 {
+    font-size: 28px;
+    color: var(--primary-color);
+    font-weight: bold;
+    background: lightblue;
+}
+
 
 /*Jumbo styles end */
 
 
 /*Bio Section Syles Begin*/
+
+.bio {
+    font-size: 24px;
+    color: var(--primary-color);
+    border-right: 1px solid lightblue;
+}
 
 .about-me {
     height: 30%;
@@ -93,16 +106,8 @@ header nav ul a {
     flex-wrap: wrap;
 }
 
-.about {
-    display: flex;
-}
-
-.work {
-    height: 40%;
-    display: flex;
-    padding: 20px 15px;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.about-me p {
+    color: var(--primary-color);
 }
 
 .contact-me {
@@ -116,14 +121,6 @@ header nav ul a {
     padding: 40px 35px;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.contact-me h1 {
-    font-weight: bold;
-    font-size: 32px;
-    color: var(--primary-color);
-    margin: 0;
-    margin-bottom: 30px;
 }
 
 .contact-me a {
