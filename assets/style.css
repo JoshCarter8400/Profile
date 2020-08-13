@@ -5,7 +5,6 @@
 }
 
 body {
-    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(6, 66, 87);
     background-color: rgb(248, 245, 245);
@@ -68,6 +67,8 @@ header nav ul a {
 /* Jumbo Style begin */
 
 .jumbo {
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px 35px;
     top: 0;
     height: 500px;
@@ -92,41 +93,69 @@ header nav ul a {
 
 /*Bio Section Syles Begin*/
 
-.bio {
-    font-size: 24px;
-    color: var(--primary-color);
+.secondary-border {
+    margin-right: 1px solid #062a06;
+}
+
+.section-title {
+    flex: 1 30%;
+    border-left: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.bio-text {
+    line-height: 1.7;
+    color: black;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 10px;
+    display: flex;
+    text-align: left;
+    flex: 12;
+}
+
+.bio-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
 /*About Me Styles Begin*/
 
-.about-me {
-    height: 30%;
-}
-
-.info {
-    display: inline;
-    color: var(--primary-color);
+.me {
+    margin: 50px;
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
 }
 
 
 /* Contact Styles Begin*/
 
-.contact-me {
+.contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.contact-me nav ul {
+.contact nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    list-style: none;
     align-items: center;
+    list-style: none;
 }
 
-.contact-me ul a {
+.contact ul a {
     padding: 10px 15px;
     font-weight: bold;
     text-decoration: underline;
@@ -134,4 +163,35 @@ header nav ul a {
 }
 
 
-/*Contact Me styles end*/
+/*Grid Styles*/
+
+.project-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.project-grid-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    color: #023055;
+    font-size: 1.2rem;
+}
+
+.project-grid-item {
+    background-color: black;
+    border: 1px solid black;
+    padding: 1em;
+    color: black;
+    align-items: center;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
