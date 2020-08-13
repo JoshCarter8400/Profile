@@ -95,51 +95,42 @@ header nav ul a {
 .bio {
     font-size: 24px;
     color: var(--primary-color);
-    border-right: 1px solid lightblue;
 }
+
+
+/*About Me Styles Begin*/
 
 .about-me {
     height: 30%;
-    display: flex;
-    padding: 40px 35px;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.about-me p {
+.info {
+    display: inline;
     color: var(--primary-color);
 }
 
-.contact-me {
-    height: 30%;
-}
+
+/* Contact Styles Begin*/
 
 .contact-me {
-    bottom: 0;
     display: flex;
-    width: 100%;
-    padding: 40px 35px;
-    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.contact-me a {
-    text-decoration: none;
-    color: var(--primary-color);
+    justify-content: space-between;
 }
 
 .contact-me nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
+    align-items: center;
 }
 
-.contact-me nav ul a {
+.contact-me ul a {
     padding: 10px 15px;
     font-weight: bold;
     text-decoration: underline;
+    color: var(--primary-color);
 }
 
 
