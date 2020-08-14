@@ -7,11 +7,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(6, 66, 87);
-    background-color: rgb(248, 245, 245);
+    background-color: #EDEEF6;
 }
 
 :root {
-    --primary-color: rgb(48, 155, 194);
+    --primary-color: #465671;
+    --secondary-color: #023055;
 }
 
 
@@ -19,7 +20,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: rgb(69, 5, 97);
+    background-color: #31343E;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -30,16 +31,15 @@ header {
 }
 
 header h1 {
-    background-color: lightblue;
     font-weight: bold;
     font-size: 32px;
-    color: var(--primary-color);
     margin: 0;
+    color: #31343E;
 }
 
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #9FC6CD;
 }
 
 header nav {
@@ -72,7 +72,7 @@ header nav ul a {
     padding: 20px 35px;
     top: 0;
     height: 500px;
-    background-image: url(/images/background.jpeg);
+    background-image: url(/images/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,10 +81,12 @@ header nav ul a {
 }
 
 .jumbo h4 {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 28px;
-    color: var(--primary-color);
+    color: #31343E;
     font-weight: bold;
-    background: lightblue;
+    align-items: flex-end;
 }
 
 
@@ -94,7 +96,7 @@ header nav ul a {
 /*Bio Section Syles Begin*/
 
 .secondary-border {
-    margin-right: 1px solid #062a06;
+    /* border-right: 1px solid #062a06; */
 }
 
 .section-title {
@@ -103,13 +105,14 @@ header nav ul a {
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+    color: var(--primary-color);
 }
 
 .bio-text {
-    line-height: 1.7;
-    color: black;
+    line-height: 1.2;
+    color: var(--primary-color);
     width: 80%;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 10px;
     display: flex;
     text-align: left;
@@ -195,12 +198,12 @@ header nav ul a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 115px);
     grid-gap: 10px;
-    color: #023055;
+    color: var(--secondary-color);
     font-size: 1.2rem;
 }
 
 .project-grid-item {
-    border: 1px solid black;
+    border: 2px solid #9FC6CD;
     padding: 1em;
     color: black;
     align-items: center;
@@ -211,4 +214,39 @@ header nav ul a {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    background-image: url(/images/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url(/images/ledlights.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(/images/calculator.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url(/images/pastels.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box5 {
+    background-image: url(/images/run-buddy.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.project-grid-item h3,
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    color: var(--primary-color);
 }
