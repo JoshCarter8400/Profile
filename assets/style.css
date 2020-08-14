@@ -134,8 +134,11 @@ header nav ul a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     text-align: left;
+    background-color: black;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 
