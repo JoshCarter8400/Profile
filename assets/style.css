@@ -191,7 +191,7 @@ header nav ul li a {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: url(../images/ocean.jpg);
+    background-image: url(../images/run-buddy.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -267,7 +267,7 @@ header nav ul li a {
 }
 
 .box5 {
-    background-image: url(../images/run-buddy.jpg);
+    background-image: url(../images/ocean.jpg);
     background-position: center;
     background-size: cover;
 }
