@@ -101,6 +101,12 @@ header nav ul li a {
     width: inherit;
 }
 
+
+/* Jumbo Style end */
+
+
+/* About Me, Work, and Contact styles begin */
+
 .section-title {
     display: inline-block;
     font-size: 32px;
@@ -112,6 +118,12 @@ header nav ul li a {
     width: 20%;
     flex-wrap: unset;
 }
+
+
+/* About Me, Work, and Contact styles end */
+
+
+/* Bio area styles begin */
 
 .flex-row {
     display: flex;
@@ -161,7 +173,10 @@ header nav ul li a {
 }
 
 
-/*Project Styles*/
+/* Bio area styles begin */
+
+
+/*Project and Grid Styles*/
 
 .project-grid-wrapper {
     display: flex;
