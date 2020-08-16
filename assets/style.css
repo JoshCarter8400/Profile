@@ -1,252 +1,334 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(6, 66, 87);
-    background-color: #EDEEF6;
-}
-
-:root {
-    --primary-color: #465671;
-    --secondary-color: #023055;
-}
-
-
-/* Apply styles to the header */
-
-header {
-    padding: 20px 35px;
-    background-color: #31343E;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    top: 0;
-    background-size: cover;
-    background-position: fixed;
-    background-position: 80%;
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 32px;
-    margin: 0;
-    color: #31343E;
-}
-
-header a {
-    text-decoration: none;
-    color: #9FC6CD;
-}
-
-header nav {
-    margin: 7px 0;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul a {
-    padding: 10px 15px;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-
-/* Header styles End*/
-
-
-/* Jumbo Style begin */
-
-.jumbo {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 35px;
-    top: 0;
-    height: 500px;
-    background-image: url(/images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: 80%;
-    width: 100%;
-}
-
-.jumbo h4 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 28px;
-    color: #31343E;
-    font-weight: bold;
-    align-items: flex-end;
-}
-
-
-/*Jumbo styles end */
-
-
-/*Bio Section Syles Begin*/
-
-.secondary-border {
-    /* border-right: 1px solid #062a06; */
-}
-
-.section-title {
-    flex: 30%;
-    padding: 30px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-    color: var(--primary-color);
-}
-
-.bio-text {
-    line-height: 1.2;
-    color: var(--primary-color);
-    width: 80%;
-    font-size: 18px;
-    margin: 0 10px;
-    display: flex;
-    text-align: left;
-    flex: 12;
-}
-
-.bio-info {
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-
-/*About Me Styles Begin*/
-
-.me {
-    margin: 50px;
-    padding: 50px;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: left;
-    height: 30%;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-
-/* Contact Styles Begin*/
-
-.contact {
-    margin: 50px;
-    padding: 50px;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: left;
-    height: 20%;
-    margin: 0 auto;
-}
-
-.contact nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-.contact ul a {
-    padding: 10px 15px;
-    font-weight: bold;
-    text-decoration: underline;
-    color: var(--primary-color);
-}
-
-
-/*Project Styles*/
-
-.projects {
-    margin-top: 20px;
-    padding: 50px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    text-align: left;
-    height: 50%;
-    margin: 0 auto;
-}
-
-.project-grid-wrapper {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.project-grid-container {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 115px);
-    grid-gap: 10px;
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-}
-
-.project-grid-item {
-    border: 2px solid #9FC6CD;
-    padding: 1em;
-    color: black;
-    align-items: center;
-}
-
-.box1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background-image: url(/images/ocean.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.box2 {
-    background-image: url(/images/ledlights.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.box3 {
-    background-image: url(/images/calculator.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.box4 {
-    background-image: url(/images/pastels.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.box5 {
-    background-image: url(/images/run-buddy.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.project-grid-item h3,
-h4 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    color: var(--primary-color);
-}
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+         :root {
+            --primary-color: #465671;
+            --secondary-color: #023055;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(6, 66, 87);
+            background-color: #EDEEF6;
+        }
+        /* Apply styles to the header */
+        
+        header {
+            padding: 2px 35px 10px 0;
+            background-color: #31343E;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            top: 0;
+            background-size: cover;
+            background-position: fixed;
+            background-position: 80%;
+        }
+        
+        header h1 {
+            font-weight: bold;
+            font-size: 32px;
+            margin: 10px 0 10px 0;
+            padding: 1px 5px 1px 30px;
+            align-items: flex-start;
+            color: #9FC6CD;
+            background-color: #023055;
+        }
+        
+        header a {
+            text-decoration: none;
+            color: #9FC6CD;
+        }
+        
+        header nav {
+            margin: 7px 5px 5px 5px;
+        }
+        
+        header nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            margin-top: 5px;
+        }
+        
+        header li a {
+            border-bottom: 3px outset #9FC6CD;
+        }
+        
+        header nav ul li a {
+            padding: 10px 10px 5px 10px;
+            font-weight: bold;
+            color: #9FC6CD;
+            margin: 0 5px;
+        }
+        /* Header styles End*/
+        /* Jumbo Style begin */
+        
+        .jumbo {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 35px;
+            top: 0;
+            height: 500px;
+            background-image: url(/images/background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-position: 80%;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .cool {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 28px;
+            color: #31343E;
+            font-weight: bold;
+            align-items: flex-end;
+            justify-content: flex-end;
+            width: inherit;
+        }
+        
+        .section-title {
+            display: inline-block;
+            font-size: 32px;
+            color: var(--primary-color);
+            padding: 30px 15px 0 0;
+            border-right: 3px solid;
+            text-align: right;
+            margin-bottom: 20px;
+            width: 20%;
+            flex-wrap: unset;
+        }
+        
+        .flex-row {
+            display: flex;
+        }
+        
+        .bio-info {
+            width: 80%;
+            display: flex;
+        }
+        
+        .main-content {
+            display: flex;
+            flex: 2;
+            margin: 0 80px 20px 40px;
+        }
+        
+        .container {
+            display: flex;
+            width: auto;
+            align-content: center;
+        }
+        
+        .container p {
+            font-size: 20px;
+            margin-left: 2em;
+        }
+        
+        .container ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin-top: 5px;
+            align-items: center;
+        }
+        
+        .container ul li {
+            padding-right: 20px;
+        }
+        
+        .container ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: var(--primary-color);
+            border-bottom: solid;
+            padding-bottom: 5px;
+            margin-left: 20px;
+        }
+        /*Project Styles*/
+        
+        .project-grid-wrapper {
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+        }
+        
+        .project-grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 10px;
+            width: 100%;
+            height: 500px;
+            color: var(--secondary-color);
+            grid-auto-flow: dense;
+        }
+        
+        .project-grid-item {
+            border: 2px solid #9FC6CD;
+            color: black;
+            align-items: center;
+        }
+        
+        .box1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-image: url(/images/ocean.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .box2 {
+            grid-column: 1 / span 1;
+            grid-row: 3 / span 1;
+        }
+        
+        .box3 {
+            grid-column: 2 / span 1;
+            grid-row: 3 / span 1;
+        }
+        
+        .box4 {
+            grid-column: 3 / span 1;
+            grid-row: 1 / span 1;
+        }
+        
+        .box5 {
+            grid-column: 3 / span 1;
+            grid-row: 2 / span 1;
+        }
+        
+        .box1 a,
+        .box2 a,
+        .box3 a,
+        .box4 a,
+        .box5 a {
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 5px 5px;
+        }
+        
+        .box1 a:hover {
+            background-color: rgba(23, 119, 221, 0.5);
+        }
+        
+        .box2 a:hover {
+            background-color: rgba(0, 25, 51, .5);
+        }
+        
+        .box3 a:hover {
+            background-color: rgba(23, 119, 221, 0.5);
+        }
+        
+        .box4 a:hover {
+            background-color: rgba(0, 25, 51, .5);
+        }
+        
+        .box5 a:hover {
+            background-color: rgba(0, 25, 51, .5);
+        }
+        
+        .box2 {
+            background-image: url(/images/ledlights.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .box3 {
+            background-image: url(/images/calculator.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .box4 {
+            background-image: url(/images/pastels.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .box5 {
+            background-image: url(/images/run-buddy.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .boxtext {
+            color: #9FC6CD;
+        }
+        /* Media query list start */
+        
+        @media only screen and (max-width:1024px) {
+            .content {
+                margin-top: 20px;
+            }
+            header {
+                flex-direction: column;
+                align-items: center;
+                padding: 0,
+            }
+            header h1 {
+                font-size: 36px;
+                margin: 0;
+                padding: 0;
+                align-items: center;
+            }
+            header nav ul {
+                margin-top: 30px;
+            }
+            header nav ul li a {
+                font-size: 2vw;
+            }
+        }
+        
+        @media only screen and (max-width:900px) {
+            .container {
+                display: flex;
+                justify-items: center;
+                width: 100%;
+            }
+            .section-title {
+                display: inline-block;
+                font-size: 32px;
+                padding: 30px 15px 0 0;
+                border-right: none;
+                border-bottom: 3px solid var(--primary-color);
+                text-align: center;
+                margin-bottom: 20px;
+                width: 100%;
+            }
+            .flex-row {
+                display: inline-block;
+            }
+            .content {
+                margin-top: 20px;
+            }
+            header {
+                flex-direction: column;
+                align-items: center;
+                padding: 0,
+            }
+            header h1 {
+                font-size: 36px;
+                margin: 0;
+                padding: 0;
+                align-items: center;
+            }
+            header nav ul {
+                margin-top: 30px;
+            }
+            header nav ul li a {
+                font-size: 2vw;
+            }
+        }
