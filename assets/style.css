@@ -37,7 +37,6 @@ header h1 {
     padding: 1px 5px 1px 30px;
     align-items: flex-start;
     color: var(--primary-color);
-    background-color: #023055;
 }
 
 header a {
