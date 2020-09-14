@@ -80,7 +80,7 @@ header nav ul li a {
     padding: 20px 35px;
     top: 0;
     height: 500px;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/ocean-profile.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     font-size: 28px;
-    color: var(--secondary-color);
+    color: rgb(240, 15, 15);
     font-weight: bold;
     align-items: flex-end;
     justify-content: flex-end;
