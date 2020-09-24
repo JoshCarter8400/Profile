@@ -213,7 +213,7 @@ header nav ul li a {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: url(../images/run-buddy.jpg);
+    background-image: url(../images/5-day.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -277,19 +277,19 @@ header nav ul li a {
 }
 
 .box3 {
-    background-image: url(../images/calculator.jpg);
+    background-image: url(../images/work-day.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .box4 {
-    background-image: url(../images/pastels.jpg);
+    background-image: url(../images/code-quiz.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .box5 {
-    background-image: url(../images/ocean.jpg);
+    background-image: url(../images/password.jpg);
     background-position: center;
     background-size: cover;
 }
