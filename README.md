@@ -11,4 +11,4 @@ This intent of this project was to build a personal Profile webpage to showcase 
 
 ### Profile webpage can be deployed here: https://joshcarter8400.github.io/Profile/
 
-<img src="images/profilescreenshot.png">
+<img src="images/updated-profile.png">
