@@ -1,5 +1,5 @@
 # Josh Carter's Profile Page
-This intent of this project was to build a personal Profile webpage to showcase my work as an aspiring fullstack web developer. It has links to my LinkedIn page and to the Github reposoitory pages for each project and also how to contact me personally. 
+The intent of this project was to build a personal Profile webpage to showcase my work as an aspiring fullstack web developer. It has links to my LinkedIn page and to the Github reposoitory pages for each project and also how to contact me personally. 
 
 ## Languages and skills Used
 1. HTML5
